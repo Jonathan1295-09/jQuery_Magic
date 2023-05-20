@@ -28,12 +28,13 @@ $p.text("Holly Wand with Unicorn Hair Core");
 $("body").append($p);
 
 const $ul = $('<ul>').attr('storage', 'trunk');
-const $liButterBeer = $('<li>').text('Butter Beer');
-const $liInvisibilityCloak = $('<li>').addClass('secret').text('Invisibility Cloak');
-const $liMagicMap = $('<li>').addClass('secret').text('Magic Map');
-const $liTimeTurner = $('<li>').addClass('secret').text('Time Turner');
+const $liButter = $('<li>').text('Butter Beer');
+const $liInvisibility = $('<li>').addClass('secret').text('Invisibility Cloak');
+const $liMagic = $('<li>').addClass('secret').text('Magic Map');
+const $liTime = $('<li>').addClass('secret').text('Time Turner');
 const $liLeash = $('<li>').addClass('petType').text('Leash');
 const $liBeans = $('<li>').text('Bertie Botts Every Flavor, Jelly Beans');
 
-$ul.append($liButterBeer, $liInvisibilityCloak, $liMagicMap, $liTimeTurner, $liLeash, $liBeans);
+$ul.append($liButter, $liInvisibility, $liMagic, $liTime, $liLeash, $liBeans);
 $container.append($ul);
+

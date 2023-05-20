@@ -5,12 +5,22 @@ body {
 
 h4, p {
     font-family: fantasy;
+    
 }
 
 .secret{
     opacity: 0.5;
+    text-align: center;
+    
 }
 
 ul{
     list-style-type: none;
+    margin: auto;
+}
+
+table,th,td{
+    border: 1px solid blue;
+    text-align: center;
+    margin: auto;
 }
