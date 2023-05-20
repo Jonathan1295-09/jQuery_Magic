@@ -11,3 +11,19 @@ const $h1 = $('<h1>')
 $h1.text("Hogwarts")
 $("#container").append($h1)
 
+//// YEAR 2 /////
+const $h2 = $('<h2>');
+$h2.text("Jonathan");
+$("body").append($h2);
+
+const $h3 = $('<h3>');
+$h3.text("Hufflepuff");
+$("body").append($h3);
+
+const $h4 = $('<h4>');
+$h4.addClass("dog").text("Sniper");
+$("body").append($h4);
+const $p = $('<p>');
+$p.text("Holly Wand with Unicorn Hair Core");
+$("body").append($p);
+
