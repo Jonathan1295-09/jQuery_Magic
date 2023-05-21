@@ -3,10 +3,11 @@
 //   } else {console.log('I did it! I linked jQuery and this js file!')};
 
 
-
+///// QUERY FOR MY DIV WITH ID OF CONTAINER//////////
 const $container = $("#container")
 console.log($container)
 
+///////// YEAR 1 ///////
 const $h1 = $('<h1>')
 $h1.text("Hogwarts")
 $("#container").append($h1)
@@ -16,23 +17,37 @@ const $h2 = $('<h2>');
 $h2.text("Jonathan");
 $("body").append($h2);
 
+///// ELEMENT HOUSE/////
 const $h3 = $('<h3>');
 $h3.text("Hufflepuff");
 $("body").append($h3);
 
+//// PET ELEMENT NAME //////
 const $h4 = $('<h4>');
 $h4.addClass("dog").text("Sniper");
 $("body").append($h4);
+
+///// MY WAND ELEMENT //////
 const $p = $('<p>');
 $p.text("Holly Wand with Unicorn Hair Core");
 $("body").append($p);
 
+
+
+
+//////// YEAR 3 UL/LI /////////// LIST OF ITEMS BELOW//////
 const $ul = $('<ul>').attr('storage', 'trunk');
+
 const $liButter = $('<li>').text('Butter Beer');
+
 const $liInvisibility = $('<li>').addClass('secret').text('Invisibility Cloak');
+
 const $liMagic = $('<li>').addClass('secret').text('Magic Map');
+
 const $liTime = $('<li>').addClass('secret').text('Time Turner');
+
 const $liLeash = $('<li>').addClass('dog').text('Leash');
+
 const $liBeans = $('<li>').text('Bertie Botts Every Flavor, Jelly Beans');
 
 $ul.append($liButter, $liInvisibility, $liMagic, $liTime, $liLeash, $liBeans);
