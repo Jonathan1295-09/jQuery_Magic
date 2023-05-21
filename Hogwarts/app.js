@@ -38,9 +38,9 @@ const $liBeans = $('<li>').text('Bertie Botts Every Flavor, Jelly Beans');
 $ul.append($liButter, $liInvisibility, $liMagic, $liTime, $liLeash, $liBeans);
 $container.append($ul);
 
-
-/////////// Year 5 //////////////////
-
+          //////////
+/////////// Year 5 /////////////
+          //////////
 
 //Break Your Wand!//
 $p.remove();
@@ -62,6 +62,20 @@ $h3.addClass("dog");
 $h3.removeClass("dog");
 $h4.addClass("dog");
 
+           /////////////
+///////////// Year 6 /////////////
+           /////////////
 
+//Update Class//
+$("secret").hide("slow").delay(2000);
 
+// Show belongings //
+$(".secret").show("slow");
 
+// Adding Class "Cabbage"
+$h4.text(text).addClass("cabbage");
+
+// adding color to class cabbage check main css //
+
+// Fixing pets leash //
+$h4.text("leash").removeClass("cabbage");
