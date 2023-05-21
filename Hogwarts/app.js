@@ -49,7 +49,7 @@ $p.remove();
 $liButter.remove();
 
 //Get A New Wand!//
-$p.insert($p).text("A New Wand");
+$p.insertAfter($p).text("A New Wand");
 
 //New Wand Color//
 $p.css('color', 'indigo');
@@ -73,7 +73,7 @@ $("secret").hide("slow").delay(2000);
 $(".secret").show("slow");
 
 // Adding Class "Cabbage"
-$h4.text(text).addClass("cabbage");
+$h4.text("text").addClass("cabbage");
 
 // adding color to class cabbage check main css //
 
