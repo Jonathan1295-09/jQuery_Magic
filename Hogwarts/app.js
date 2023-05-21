@@ -32,9 +32,36 @@ const $liButter = $('<li>').text('Butter Beer');
 const $liInvisibility = $('<li>').addClass('secret').text('Invisibility Cloak');
 const $liMagic = $('<li>').addClass('secret').text('Magic Map');
 const $liTime = $('<li>').addClass('secret').text('Time Turner');
-const $liLeash = $('<li>').addClass('petType').text('Leash');
+const $liLeash = $('<li>').addClass('dog').text('Leash');
 const $liBeans = $('<li>').text('Bertie Botts Every Flavor, Jelly Beans');
 
 $ul.append($liButter, $liInvisibility, $liMagic, $liTime, $liLeash, $liBeans);
 $container.append($ul);
+
+
+/////////// Year 5 //////////////////
+
+
+//Break Your Wand!//
+$p.remove();
+
+//Class was hard!//
+$liButter.remove();
+
+//Get A New Wand!//
+$p.insert($p).text("A New Wand");
+
+//New Wand Color//
+$p.css('color', 'indigo');
+
+//Pet Going on De mission//
+$h4.removeClass("dog");
+$h3.addClass("dog");
+
+//Pet Successful mission Got the Goods//
+$h3.removeClass("dog");
+$h4.addClass("dog");
+
+
+
 
