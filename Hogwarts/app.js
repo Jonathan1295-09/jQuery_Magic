@@ -79,3 +79,19 @@ $h4.text(text).addClass("cabbage");
 
 // Fixing pets leash //
 $h4.text("leash").removeClass("cabbage");
+
+
+      /////////////////
+/////////  Year 7 /////////
+     ////////////////
+
+// Class Update //
+$("h5").text("Fall 2018");
+
+// Buying More Butter Beer! //
+$liButter.insertBefore($liInvisibility)
+
+
+// Whoops!!!!! //
+$ul.attr("storage", "chest");
+
